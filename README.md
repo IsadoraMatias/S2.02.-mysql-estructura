@@ -1,18 +1,34 @@
-# S2.02.-mysql-estructura
+# S2.02 - mysql-structure
 
-Este repositorio contiene modelo relacional y los scripts de la base de datos del ejercicio 1 - Òptica y el ejercicio 2 - Pizzería del tema 1 - MySQL.
+This repository contains the relational models and SQL scripts for the databases of the exercises from Topic 1 - MySQL:
 
-## 📁 Archivos
+- **Ejercicio 1: Optica**
+- **Ejercicio 2: Pizzeria**
 
-- `Modelo Relacional`  
-  Contiene un archivo PNG con el modelo relacional realizado en MySQL Workbench.
+## 📁 Files
 
-  - `Script de creación`
-  Archivo .sql con los comandos necesarios para la criação de la base de datos
+- `optica/`
+  - `modelo_optica.png`
+  - `script_optica.sql`
+  - `datos_optica.sql`
+  
+- `pizzeria/`
+  - `modelo_pizzeria.png`
+  - `script_pizzeria.sql`
+  - `datos_pizzeria.sql`
 
-  - `Script de carga`
-  Archivo .sql con los dados para poblar la base de datos
+## 📋 Requirements and Usage
 
-## 📋 Requisitos y Uso
+- MySQL and MySQL Workbench (or another SQL client) installed.
+- Run the creation script (`script_*.sql`) to create the database and tables.
+- Run the data script (`datos_*.sql`) to populate the database with sample data.
+- Explore the databases and run queries as needed.
 
-Tener MySQL Workbench instalado en su máquina, cargar los scripts y realizar as seguintes consultas:
+---
+
+## 📌 Notes
+
+- The relational models were designed using MySQL Workbench and exported as PNG images for easier visualization.
+- Scripts are split to allow separate creation and data loading.
+
+---
